@@ -1,16 +1,13 @@
-<!-- docs/_sidebar.md -->
+-   **Getting started**
 
--   Getting started
+    -   [Quick Start](/pages/gettingStarted/quickStart.md)
+    -   [Light/Dark Mode](/pages/gettingStarted/lightDarkMode.md)
+    -   [Plugins](/pages/gettingStarted/plugins.md)
+    -   [Version History](/pages/gettingStarted/w.md)
 
-    -   [Quick start](quickstart.md)
-    -   [Writing more pages](more-pages.md)
-    -   [Custom navbar](custom-navbar.md)
-    -   [Cover page](cover.md)
-
-*   [Home](/)
-*   [Guide](guide.md)
-*   [Org](/org/README.md)
-    -   [Authorize](/)
-*   [Projects](/org/README.md)
-*   [Deployments](/org/README.md)
-*   [Data Operations](/org/README.md)
+-   **Core Features**
+    -   [Organizations](/pages/coreFeatures/organizations.md)
+    -   [Projects](/pages/coreFeatures/projects.md)
+    -   [Deployments](/pages/coreFeatures/deployments.md)
+    -   [Data Operations](/pages/coreFeatures/dataOperations.md)
+    -   [SOQL Explorer](/pages/coreFeatures/soqlExplorer.md)
