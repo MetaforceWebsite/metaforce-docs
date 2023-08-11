@@ -7,3 +7,21 @@ main > section.content {
 main .app-name-link img {
     width: 60px;
 }
+
+main .markdown-section h2 {
+    margin-top: 25px;
+}
+
+.markdown-section blockquote {
+    margin: 0px;
+}
+
+.flex-images {
+    display: flex;
+}
+.flex-images > div {
+    padding: 0px 5px;
+}
+img {
+    border: 1px solid silver;
+}

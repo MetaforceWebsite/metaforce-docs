@@ -1,6 +1,6 @@
 <div style="text-align:center;padding-bottom:20px;">
-    <img src="/img/logo.png" style="width:100px;">
-    <div>Latest Version: 2.3.3</div>
+    <img src="/img/logo.png" style="width:100px;border-width:0px;">
+    <div><a href="/#/pages/gettingStarted/versionHistory.md">Latest Version: 2.3.3</a></div>
 </div>
 
 # What is Metaforce?
