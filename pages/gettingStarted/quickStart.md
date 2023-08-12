@@ -10,7 +10,7 @@ Follow steps below to quickly walk through metaforce core features!
 > Once your salesforce account is authorized successfully, the credential info will be stored as local files which only metaforce can read.
 
 1. Open Metaforce app, click `New Organization` --> `Production`.  
-   ![Add a new org](./images/add-a-new-org.jpg)
+   ![Add a new org](./images/add-a-new-org.jpg ":size=70%")
 
 2. Login your salesforce account from the standard salesforce login popup window.
 
@@ -23,7 +23,7 @@ Follow steps below to quickly walk through metaforce core features!
 
 3. View your salesforce org details as below.  
    Try to quickly open your salesforce org in browser by clicking the `Quick Login` icon or the action `Open Org In Browser`.  
-   ![Add a new org](./images/new-org-card.jpg)
+   ![Add a new org](./images/new-org-card.jpg ":size=70%")
 
 ## Start apex development
 
@@ -33,10 +33,10 @@ Now, let's build a project and meet powerful metaforce code editor.
 1.  Go to `Projects` --> `New Project`, popuate project information and save it.
     -   Click `Build Package Xml` to choose metadata components via metaforce package xml builder.
     -   Click `Save & Retrieve` button to retrieve metadata components you selected directly.
-        ![Add a new project](./images/new-project.jpg)
+        ![Add a new project](./images/new-project.jpg ":size=70%")
 2.  Click `Open Code Editor` action on project detail card. Edit and Save your apex code.  
-    In metaforce code editor, you can create/refresh/update/compare apex, lwc, aura, object, fields and other metadata components directly.
-    ![project code editor](./images/project-code-editor.jpg)
+    In metaforce code editor, you can create/refresh/update/compare apex, lwc, aura, object, fields and other metadata components directly.  
+    ![project code editor](./images/project-code-editor.jpg ":size=70%")
 
 ## Deploy your changes
 
@@ -49,11 +49,21 @@ In Metaforce, you can quickly deploy your metadata changes from source org to ta
     -   Step 3: configure deployment options (test level, diff changes, and deployment type.)
     -   Step 4: start deployment and monitor deployment status.
 
-    ![Add a new deployment](./images/deployment.jpg)
+    ![Add a new deployment](./images/deployment.jpg ":size=70%")
 
 2.  Click "Start Deployment Now" and view deployment status.
-    ![deployment monitor](./images/deployment-result.jpg)
+    ![deployment monitor](./images/deployment-result.jpg ":size=70%")
 
 ## Bulk export account records
 
+1.  Go to `Data Operation` --> `New Bulk Export`, then Populate the export name, salesforce org, object and fields.
+    ![export account](./images/new-export.jpg ":size=70%")
+2.  Review the export summary and start the export, then download the csv file.
+    ![export account result](./images/export-result.jpg ":size=70%")
+
 ## Quickly query and update accounts
+
+1.  Go to `SOQL Explorer` --> `Choose an salesforce org connection`.
+2.  Build your own soql via `SOQL Builder` on the left side, click `Generate SOQL` button.
+3.  You can also manually update the soql, like adding cross-object field. Click `Run Query` button.
+    ![export account](./images/soql-explorer.jpg ":size=70%")
