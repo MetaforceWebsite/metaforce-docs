@@ -7,16 +7,18 @@ Metaforce provides 2 powerful app plugins on the top MenuBar(Mac) or TaskBar(Win
 
 ### Global Orgs Hub
 
+This plugin lists all your organizations in a quick popup so that you can `always login salesforce account by only one step`.  
 To open the plugin, click the plugin icon on the menu bar or press the shortcuts `Cmd/Ctrl + Shift + M`.  
 ![Add a new org](./images/plugin-orghub.jpg ":size=70%")
 
 ### Global Org Search
 
+This plugin helps you to search salesforce menus, users, apex, other various metadata types by only one step.  
 To open the plugin, click the plugin icon on the menu bar or press the shortcuts `Cmd/Ctrl + Shift + J`.
 
 1.  In global org seach window, you can pre-select metadata types you usually search. For example, apex, lwc, flow, user, etc.
 
-    > The org connection is auto switched to the most recent org you used in metaforce app.
+    > The org connection is auto switched to the most recent org you used before starting search.  
     > This ability ensures the plugin always use the right salesforce org you want, and perform a real-time search at anytime.
 
     ![Add a new org](./images/plugin-orgseach.jpg ":size=70%")
