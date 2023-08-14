@@ -1,14 +1,14 @@
-<!-- _coverpage.md -->
+<div style="text-align:center;padding-bottom:20px;">
+    <img src="/img/logo.png" style="width:150px;border-width:0px;">
+</div>
 
-![logo](_media/icon.svg)
+# **Metaforce** <small>v2.3</small>
 
-# docsify <small>3.5</small>
+> a powerful salesforce administration and development tool
 
-> A magical documentation site generator.
+-   Simple, lightweight, powerful
+-   Specially built for salesforce consultants and developers
+-   Available on Windows, Mac, iPad
 
--   Simple and lightweight
--   No statically built html files
--   Multiple themes
-
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[Install Now](https://metaforce.ltd/)
+[Get Started](/pages/gettingStarted/quickStart)

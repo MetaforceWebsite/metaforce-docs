@@ -29,7 +29,9 @@ To build/update a package xml, you can use `Package XML Builder` to quickly choo
 
 ## metaforce-manifest.xml
 
-Instead of package.xml, Metaforce Project use its own xml file named `metaforce-manifest.xml`.
+Instead of package.xml, Metaforce Project use its own xml file named `metaforce-manifest.xml` to retrieve metadata components under the project.
+
+> the `metaforce-manifest.xml` is identical with the `package.xml`.
 
 -   The file metaforce-manifest.xml is `auto generated` while you create a new project.
 -   The file metaforce-manifest.xml file can be `updated via Package XML Builder`.
