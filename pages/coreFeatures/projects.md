@@ -26,6 +26,7 @@ Here is a simple package xml file:
     </Package>
 
 To build/update a package xml, you can use `Package XML Builder` to quickly choose components and save/export as a package xml file.
+![package xml builder](../gettingStarted/images/package-xml-builder.jpg)
 
 ## metaforce-manifest.xml
 
@@ -36,6 +37,7 @@ Instead of package.xml, Metaforce Project use its own xml file named `metaforce-
 -   The metaforce-manifest.xml file is `auto generated` while you create a new project.
 -   The metaforce-manifest.xml file can be `updated via Package XML Builder`.
 -   The metaforce-manifest.xml file can be `retrieved to refresh its all components`.
+    ![metaforce manifest](./images/manifest.jpg)
 
 ## Code Editor Actions
 
