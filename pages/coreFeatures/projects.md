@@ -31,34 +31,64 @@ To build/update a package xml, you can use `Package XML Builder` to quickly choo
 
 Instead of package.xml, Metaforce Project use its own xml file named `metaforce-manifest.xml` to retrieve metadata components under the project.
 
-> the `metaforce-manifest.xml` is identical with the `package.xml`.
+> Notes: the usage of `metaforce-manifest.xml` is totally same with the `package.xml`.
 
--   The file metaforce-manifest.xml is `auto generated` while you create a new project.
--   The file metaforce-manifest.xml file can be `updated via Package XML Builder`.
--   The file metaforce-manifest.xml file can be `retrieved to refresh its all components`.
+-   The metaforce-manifest.xml file is `auto generated` while you create a new project.
+-   The metaforce-manifest.xml file can be `updated via Package XML Builder`.
+-   The metaforce-manifest.xml file can be `retrieved to refresh its all components`.
 
 ## Code Editor Actions
 
 ### Save On Local (Cmd + S)
 
+> Save your changes on local file only. The grammar check/validation won't be applied.
+
 ### Save To Salesforce (Cmd + Shift + S)
+
+> Save your changes to salesforce server.
 
 ### Refresh From Salesforce (Cmd + Shift + R)
 
+> Fetch latest metadata content from salesforce server.
+
+### Run Apex Test
+
+There are 2 ways to run an apex test class:
+
+1. `Run Quick Test`: run apex test methods only without generating code coverage. It can be used to quickly validate if your test methods have any exception during execution.
+2. `Run Test`: run apex test methods and generate code coverages.
+
+> Tips: When writing apex test class, you can use "Run Quick Test" to test if all test methods can be executed successfully. Then, use "Run Test" to check if the code coverage is sufficient for the deployment.
+
 ### Show Apex Coverage
+
+> Show apex coverage percentage and highlight covered code lines in code editor. Please always ensure your apex code coverage is great than 75% at least.
 
 ### Open In Salesforce (Cmd + Shift + O)
 
-### Show Apex Coverage
+> Show apex coverage percentage and highlight covered code lines in code editor.
 
 ### Diff With Target Org
 
+> See a diff between current apex code and the same apex in the target org you select.
+
 ### View References
+
+-   View components which are referenced by current component.
+-   View components which reference to current component.
 
 ### View Console Logs (Cmd + Shift + L)
 
+> Show code editor logs
+
 ### Format Code (Cmd + Shift + F)
+
+> Quick format your apex, html, js, xml, etc.
 
 ### Editor Font Size
 
+> Change font size in code editor.
+
 ### Editor Themes
+
+> Change the theme of code editor.
