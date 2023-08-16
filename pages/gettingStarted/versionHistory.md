@@ -1,5 +1,29 @@
 # Verison History
 
+## Version 2.4
+
+Released on Aug 17, 2023
+
+**New Features**
+
+**📣 Global Record Search Plugin**  
+Start to search records across all objects. It supports 2 types of record search:
+
+-   `Text Search` to find records across all objects you choose`via SOSL.
+-   `ID Search` to show all field values for a particular record.
+
+**📣 New Available Metadata Types For The Deployment**  
+Those metadata types are available for the deployment now.
+
+1.  Territory2
+2.  Territory2Model
+3.  Territory2Type
+4.  Territory2Rule
+5.  SharingCriteriaRule
+6.  SharingOwnerRule
+7.  SharingTerritoryRule
+8.  NamedCredential
+
 ## Version 2.3
 
 Released on Aug 9, 2023  

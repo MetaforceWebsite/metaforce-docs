@@ -44,7 +44,7 @@ Before you start,
 Global Record Search support 2 types of search:
 
 -   `Text Search` to find records across all objects you choose` via SOSL.
--   `ID Search` to all field values for a particular record.
+-   `ID Search` to show all field values for a particular record.
 
 Before you start,
 
