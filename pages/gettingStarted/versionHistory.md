@@ -1,8 +1,8 @@
 # Verison History
 
-## Version 2.4
+## Version 2.5
 
-Released on Aug 17, 2023
+Released on Aug 18, 2023
 
 **New Features**
 
@@ -11,6 +11,9 @@ Start to search records across all objects. It supports 2 types of record search
 
 -   `Text Search` to find records across all objects you choose`via SOSL.
 -   `ID Search` to show all field values for a particular record.
+    -   All record field values are listed.
+    -   Click field label to open view the field in salesforce.
+    -   Edit field values and save the record directly.
 
 **📣 New Available Metadata Types For The Deployment**  
 Those metadata types are available for the deployment now.

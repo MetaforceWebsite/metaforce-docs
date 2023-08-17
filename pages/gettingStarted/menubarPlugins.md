@@ -45,6 +45,9 @@ Global Record Search support 2 types of search:
 
 -   `Text Search` to find records across all objects you choose` via SOSL.
 -   `ID Search` to show all field values for a particular record.
+    -   All record field values are listed.
+    -   Click field label to open view the field in salesforce.
+    -   Edit field values and save the record directly.
 
 Before you start,
 
