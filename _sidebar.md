@@ -1,5 +1,6 @@
 -   **Getting started**
 
+    -   [Install](/pages/gettingStarted/install.md)
     -   [Quick Start](/pages/gettingStarted/quickStart.md)
     -   [Light/Dark Mode](/pages/gettingStarted/lightDarkMode.md)
     -   [MenuBar Plugins](/pages/gettingStarted/menubarPlugins.md)
