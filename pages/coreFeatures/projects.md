@@ -41,6 +41,10 @@ Instead of package.xml, Metaforce Project use its own xml file named `metaforce-
 
 ## Code Editor Actions
 
+In metaforce code editor, you can `view, update, save, and refresh` your salesforce metadata directly which includes apex classes, aura, lwc, custom objects, custom fields, email templates, etc.
+
+![package xml builder](./images/project-code-editor.jpg)
+
 ### Save On Local (Cmd + S)
 
 > Save your changes on local file only. The grammar check/validation won't be applied.
