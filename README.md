@@ -1,7 +1,6 @@
 <div style="text-align:center;padding-bottom:20px;">
     <img src="/img/logo.png" style="width:100px;border-width:0px;">
-    <div><a href="/#/pages/gettingStarted/versionHistory.md">Latest Version: 2.5.3</a></div>
-    <div><a href="/#/pages/gettingStarted/install.md">Install Now</a></div>
+    <div><a href="/#/pages/gettingStarted/install.md">Install Latest Version</a></div>
 </div>
 
 # What is Metaforce?
