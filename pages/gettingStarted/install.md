@@ -1,11 +1,5 @@
 # Install Metaforce
 
-## Download for Desktop (windows only)
-
-If you're not a fan of microsoft store, [CLICK HERE TO VIEW](https://github.com/metaforce-quasar/metaforce-docs/tree/main/win-installs) all available Metaforce installer Versions and install latest version on your desktop manually.
-
--   Download and Install the latest app version
-
 ![Win Download](./images/git-download.jpg ":size=70%")
 
 ## Microsoft Store
