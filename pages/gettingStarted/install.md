@@ -1,7 +1,3 @@
-# Install Metaforce
-
-![Win Download](./images/git-download.jpg ":size=70%")
-
 ## Microsoft Store
 
 Windows Installation Link: https://apps.microsoft.com/store/detail/metaforce-/9N9ZD9T6RGZP
