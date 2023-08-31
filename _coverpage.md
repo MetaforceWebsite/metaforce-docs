@@ -10,5 +10,5 @@
 -   Specially built for salesforce consultants and developers
 -   Available on Windows, Mac, iPad
 
-[Install Now](https://metaforce.ltd/)
-[Get Started](/pages/gettingStarted/quickStart)
+[Install Now](/pages/gettingStarted/install.md)
+[Get Started](/pages/gettingStarted/quickStart.md)

@@ -1,7 +1,5 @@
 # Data Operations
 
-> For cross-object field reference, you can directly input the reference field name and press `Enter`. The field name will be directly added as a field under the 'Choose fields' dropdown list.
-
 ## Bulk Export via Bulk API
 
 Export salesforce records as CSV file via Bulk API via 3 steps below:
@@ -11,6 +9,8 @@ Export salesforce records as CSV file via Bulk API via 3 steps below:
 3. Review your export info and Start it.
 
 ![data-export-info](./images/data-export-info.jpg)
+
+!> For cross-object field reference, you can directly input the reference field name and press `Enter`. The field name will be directly added as a field under the 'Choose fields' dropdown list.
 
 ## Bulk Import via Bulk API
 
