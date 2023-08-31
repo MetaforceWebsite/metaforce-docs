@@ -8,4 +8,4 @@ Windows Installation Link: https://apps.microsoft.com/store/detail/metaforce-/9N
 Mac/iPad Installation Link: https://apps.apple.com/us/app/metaforce/id1643287394
 ![Mac Install](./images/install-mac.jpg ":size=70%")
 
-!> If the installation link doesn't work somehow, you can search "Metaforce" direct in the app store.
+!> If the installation link doesn't work somehow, you can search "Metaforce" directly in the app store.
