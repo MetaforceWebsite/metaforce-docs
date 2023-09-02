@@ -2,7 +2,7 @@
     <img src="/img/logo.png" style="width:150px;border-width:0px;">
 </div>
 
-# **Metaforce Docs** <small>v2.3</small>
+# **Metaforce Docs**
 
 > a powerful salesforce administration and development tool
 
