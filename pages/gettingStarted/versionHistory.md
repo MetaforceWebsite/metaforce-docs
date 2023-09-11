@@ -1,5 +1,18 @@
 # Verison History
 
+## Version 2.8
+
+Released on Sep 12, 2023
+
+**📣 Huge App Performance Improvement**  
+All app pages can be loaded **`5x FASTER`** than previous version.
+
+**📣 Reauthorize your salesforce organization**  
+Once your org connection is expired, you can reauthorize the org without leaving your current page.
+
+**📣 Choose Rest/Tooling in SOQL Explorer**  
+In SOQL Explorer, you can choose Rest or Tooling mode which will limit options of objects/fields list.
+
 ## Version 2.5
 
 Released on Aug 18, 2023
