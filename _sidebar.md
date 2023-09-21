@@ -7,6 +7,7 @@
     -   [Version History](/pages/gettingStarted/versionHistory.md)
 
 -   **Core Features**
+
     -   [Organizations](/pages/coreFeatures/organizations.md)
     -   [Projects](/pages/coreFeatures/projects.md)
     -   [Deployments](/pages/coreFeatures/deployments.md)
@@ -14,3 +15,6 @@
     -   [Flow Organizer](/pages/coreFeatures/flowOrganizer.md)
     -   [SOQL Explorer](/pages/coreFeatures/soqlExplorer.md)
     -   [Permission Explorer](/pages/coreFeatures/permissionExplorer.md)
+
+-   **Appendices**
+    -   [Supported Metadata Types](/pages/appendices/supportedMetadataTypes.md)
