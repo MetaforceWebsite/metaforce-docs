@@ -26,10 +26,10 @@ Import your csv data into salesforce via Bulk API.
 
 ### Preview Import Info
 
-In the last step of Import, you can preview all import info in one place.
+Before starting the data import, please review following settings to.
 
--   Before the import, you can review the `target org`, the `target object`, the `CSV field mapping`, `number of csv rows`.
--   After the import, you can view bulk `import job status`, `number of success/fail records`, `download results`.
+-   If you're doing insert or upsert, please always exclude the "Id" field from your mapping.
+-   Make sure mappings between csv header and object field are accurate.
 
 ![data-import-info](./images/data-import-info.jpg)
 
@@ -39,6 +39,6 @@ This feature helps you to move salesforce records directly from the source org t
 
 It supports 3 data migration types:
 
--   `Insert` - insert all records as new in the target org.
--   `Update` - Update all records based on the record id.
--   `Upsert` - Upsert all records based on selected external field.
+-   `Insert` - insert records as new in the target org.
+-   `Update` - Update records based on the record id.
+-   `Upsert` - Upsert records based on selected external Id field.
