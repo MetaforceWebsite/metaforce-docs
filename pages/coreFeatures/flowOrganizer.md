@@ -30,4 +30,4 @@ By default, the most recent 5 flow versions will be fetched. If you want to load
 
 > Tips: click "Last Modified Date" column to keep the latest updated flow on the top, then you can easily find the flow you're working on.
 
-![flow-actions](./images/flow-actions.png)
+![flow-actions](./images/flow-actions.jpg)
