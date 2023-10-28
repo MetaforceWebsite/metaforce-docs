@@ -2,11 +2,11 @@
 
 Metaforce Flow Organizer helps you to manage all your flows and flow versions in a single view.
 
-In flow organizer view, following key flow properties can be filtered and sorted:
+In flow organizer, you can quickly filter, sort all flows.
 
 -   **Flow Name**: shows flow name and api name both.
 -   **Flow Status**: indicates the flow is active or not.
--   **Type**, here are 4 common flow types:
+-   **Type**, there are 4 common flow types:
     1. AutoLaunchedFlow
     2. Screen Flow
     3. Record Triggered Flow
@@ -17,7 +17,9 @@ In flow organizer view, following key flow properties can be filtered and sorted
 
 ## Auto Flow Sync
 
-All your active flows will be retrieved and saved on local, so you can quickly search, view, export those flow details as you want.
+Everytime you open the flow organizer or click the `Fetch Latest Flow Updates` button, all latest active flow updates will be retrieved and saved on local by default.
+
+-   Click flow name to open the flow definition detail in the browser
 
 > The flow organizer auto fetch latest flow updates while the flow organizer page is open or refreshed.
 

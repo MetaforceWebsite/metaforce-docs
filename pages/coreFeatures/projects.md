@@ -39,6 +39,26 @@ Instead of package.xml, Metaforce Project use its own xml file named `metaforce-
 -   The metaforce-manifest.xml file can be `retrieved to refresh its all components`.
     ![metaforce manifest](./images/manifest.jpg)
 
+## Edit CustomObject Xml
+
+Once custom objects are retrieved successfully, you can find them in project side bar. A specific custom object can be expanded as below:
+
+-   `Folders`: fields, list views, validation rules, layouts, weblinks(Button & Links).
+-   `xxxxxx.object`: a complete custom object metadata xml which includes all metadata definitions, includes fields, validations, buttons, etc.
+-   `xxxxxx.object-template.xml`: a simplified xml which only contains specific object definition. It's used to create new fields, validation rules or other child metadata via adding the xml definition in this file.
+
+### Edit custom field, list view, validation rule, button & links
+
+To-Be-Updated
+
+### Create/Deploy a new custom field
+
+To-Be-Updated
+
+### Edit/Deploy search layouts & action overrides
+
+To-Be-Updated
+
 ## Code Editor Actions
 
 In metaforce code editor, you can `view, update, save, and refresh` your salesforce metadata directly which includes apex classes, aura, lwc, custom objects, custom fields, email templates, etc.
