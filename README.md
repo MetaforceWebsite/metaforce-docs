@@ -14,9 +14,10 @@ Metaforce Core Features:
 3. **Deployments** - Start a quick salesforce deployment between orgs without a changeset.
 4. **Data Operations** - Easily export and import your salesforce data.
 5. **Flow Organizer** - Manage and organize all your flows in one place.
-6. **SOQL Explorer** - Build and Run SOQL to get records. You can also update, delete or export records directly.
+6. **SOQL Explorer** - Easily build & run soql query via rest api or tooling api. Beyond that, you can also edit/delete records via rest api directly.
 7. **Permission Explorer** - Review and update object and field permissions across multiple profiles and permission sets.
-8. **More to come and Stay tuned...**
+8. **Find Dependencies** - Find metadata dependencies for custom object, custom field, apex, visualforce, or a specific metadata component id.
+9. **More to come and Stay tuned...**
 
 Watch the video to learn what Metaforce can do!
 

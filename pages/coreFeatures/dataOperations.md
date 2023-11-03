@@ -10,7 +10,9 @@ Export salesforce records as CSV file via Bulk API via 3 steps below:
 
 ![data-export-info](./images/data-export-info.jpg)
 
-!> For cross-object field reference, you can directly input the reference field name and press `Enter`. The field name will be directly added as a field under the 'Choose fields' dropdown list.
+> [!NOTE|label:Add child-to-parent relationship field]
+> To export a child-to-parent field, you can input the relationship field name and press `Enter` as below. For example, input "CreatedBy.Name" and press "Enter".
+> ![data-export-info](./images/data-export-cross-fields.jpg)
 
 ## Bulk Import via Bulk API
 
