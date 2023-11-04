@@ -1,22 +1,27 @@
 # Data Operations
 
-## Bulk Export via Bulk API
+## Export records via bulk api 2.0
 
-Export salesforce records as CSV file via Bulk API via 3 steps below:
+Compared with dataloader or other tools, Metaforce provides a better experience to start a bulk export job in a super easy way.
 
-1. Choose a salesforce org connection
-2. Choose an object & fields, set where conditions to filter your records.
-3. Review your export info and Start it.
+Open metaforce and follow steps to export your data now!
 
-![data-export-info](./images/data-export-info.jpg)
+1.  Name your export operation and choose the org connection
+2.  Choose object & fields, and set soql where clause to filter records.
+    ![data-export-info](./images/data-export-info.jpg)
 
-> [!NOTE|label:Add child-to-parent relationship field]
-> To export a child-to-parent field, you can input the relationship field name and press `Enter` as below. For example, input "CreatedBy.Name" and press "Enter".
-> ![data-export-info](./images/data-export-cross-fields.jpg)
+    > [!Tip|style:flat|label:Tips]
+    >
+    > 1. For soql where clause, it must starts with the "where" keyword. For example, `WHERE CreatedDate > Last_Year ORDER BY LastModifiedDate DESC LIMIT 1000`.
+    > 2. To add child-to-parent relationship fields, you can `input the relationship field name` and press `Enter` as below. For example, input "CreatedBy.Name" and press "Enter".  
+    >    ![data-export-info](./images/data-export-cross-fields.jpg)
 
-## Bulk Import via Bulk API
+3.  Start the export, view export job result, and download the csv file.
+    ![data-export-result](./images/data-export-result.jpg)
 
-Import your csv data into salesforce via Bulk API.
+## Import records via bulk api 2.0
+
+Compared with dataloader or other tools, Metaforce provides a better experience to start a bulk import job in a super easy way.
 
 ### CSV Fields Mapping
 
