@@ -42,10 +42,29 @@ Before starting the data import, please review following settings to.
 
 ## Data Migration via REST API
 
-This feature helps you to move salesforce records directly from the source org to the target org.
+Instead of exporting & importing CSV files, the Data Migration helps you to `move salesforce records directly from the source org to the target org`. For example, you need to migrate records from production/uat org to a dev/partial sandbox.
 
-It supports 3 data migration types:
+### 3 migration action types
 
 -   `Insert` - insert records as new in the target org.
--   `Update` - Update records based on the record id.
--   `Upsert` - Upsert records based on selected external Id field.
+-   `Update` - Update records based on the record id in the target org.
+-   `Upsert` - Upsert records based on selected external Id field on the target object.
+
+### Field mappings
+
+After choosing source fields, you need to match them with corresponding target fields on the target object.
+
+Metaforce provides some special mapping abilities:
+
+-   **Map Static Value**  
+    You can map a static value to a target field, like a text, date, number.
+-   **Duplicate source field**  
+     Click the "Copy" icon ahead of source field to map a source field value to multiple target fields.
+
+> [!NOTE]
+> For target field picklist, only creatable/updatable fields will be listed. Please `make sure you have "Edit" permission` for fields if you can't find them in the picklist.
+
+> [!TIP]
+> Once the migration starts, your records will be processed via salesforce rest api. The salesforce rest api can only process 200 records at maximum per request. `If you have 200+ records, it will be separated into multiple requests and processed one by one`.
+
+![data-import-info](./images/dm-field-map.jpg)
