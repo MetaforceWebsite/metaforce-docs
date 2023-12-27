@@ -1,5 +1,20 @@
 # Verison History
 
+## Version 2.18
+
+Released on Dec 26, 2023
+
+**📣 Dynamic SOQL Builder**
+
+-   Provide a soql editor to write your soql efficiently.
+-   Auto complete object fields and soql keywords.
+
+**📣 Cross-Object fields Selector**  
+Object field selector component supports choosing cross-object fields by few clicks.
+
+**📣 Re-designed Project Code Editor**  
+New project code editor supports auto completion for apex, html, xml language.
+
 ## Version 2.8
 
 Released on Sep 12, 2023

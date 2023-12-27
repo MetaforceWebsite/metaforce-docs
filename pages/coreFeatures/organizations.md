@@ -1,5 +1,7 @@
 # Organizations
 
+![Add a new org](./images/org-new-gif.gif)
+
 ## Securely connect via OAuth
 
 Metaforce connects all your salesforce organizations via [`Standard Salesforce OAuth Process`](https://help.salesforce.com/s/articleView?language=en_US&id=sf.remoteaccess_oauth_web_server_flow.htm&type=5).  
