@@ -15,6 +15,8 @@ In flow organizer, you can quickly filter, sort all flows.
 -   **Trigger Type**: indicates when a record trigger flow get triggered.
 -   **Last Modified**: last modified user and date.
 
+![flow-auto-sync](./images/flow-organizer.gif)
+
 ## Auto Flow Sync
 
 Everytime you open the flow organizer or click the `Fetch Latest Flow Updates` button, all latest active flow updates will be retrieved and saved on local by default.
