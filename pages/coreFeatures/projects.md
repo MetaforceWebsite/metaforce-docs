@@ -3,6 +3,20 @@
 Metaforce Project is a lightweight and powerful code editor for salesforce development.  
 Compared to VS Code, `Metaforce Code Editor` has a user friendly interface and provides many handy actions, like code comparison, test execution, etc.
 
+## Create Apex/Aura/LWC/Object/Field
+
+Metaforce project provides quick actions to create following resources easily:
+
+1. Visualforce page
+2. Apex Class
+3. Apex Trigger
+4. Aura Component
+5. LWC Component
+6. New CustomObject, CustomSetting, Custom Metadata Object
+7. New Custom Field
+
+![Create Apex/Aura/LWC](../coreFeatures/images/project-new-meta.jpg)
+
 ## Package XML Builder
 
 In salesforce, a `package.xml` file defines the components that you’re trying to retrieve or deploy.  
@@ -26,7 +40,7 @@ Here is a simple package xml file:
     </Package>
 
 To build/update a package xml, you can use `Package XML Builder` to quickly choose components and save/export as a package xml file.
-![package xml builder](../gettingStarted/images/package-xml-builder.jpg)
+![package xml builder](../coreFeatures/images/project-package-xml-builder.gif)
 
 ## metaforce-manifest.xml
 
