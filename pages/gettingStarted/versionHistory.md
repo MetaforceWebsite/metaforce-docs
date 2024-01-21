@@ -1,5 +1,21 @@
 # Verison History
 
+## Version 2.22
+
+Released on Jan 18, 2024
+
+**📣 Project Code Editor**
+
+-   Add default dark theme for code editor.
+-   Create new custom object & field and assign permissions.
+-   Support 2 save mode for LWC component.
+-   Optimized project files search.
+
+**📣 Plugin: Global Org Search**
+
+-   Show recently viewed records under global record search tab.
+-   Optimize logic to switch org connection faster
+
 ## Version 2.18
 
 Released on Dec 26, 2023
