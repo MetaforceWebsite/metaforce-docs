@@ -12,8 +12,8 @@
     -   [Projects](/pages/coreFeatures/projects.md)
     -   [Deployments](/pages/coreFeatures/deployments.md)
     -   [Data Operations](/pages/coreFeatures/dataOperations.md)
-    -   [Flow Organizer](/pages/coreFeatures/flowOrganizer.md)
     -   [SOQL Explorer](/pages/coreFeatures/soqlExplorer.md)
+    -   [Flow Organizer](/pages/coreFeatures/flowOrganizer.md)
     -   [Permission Explorer](/pages/coreFeatures/permissionExplorer.md)
 
 -   **Appendices**

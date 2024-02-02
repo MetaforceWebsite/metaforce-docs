@@ -27,7 +27,7 @@ Everytime you open the flow organizer or click the `Fetch Latest Flow Updates` b
 
 ![flow-auto-sync](./images/flow-auto-sync.jpg)
 
-## Actions On Flow Version
+## Actions On The Flow Version
 
 Expand a flow to view flow versions.  
 By default, the most recent 5 flow versions will be fetched. If you want to load all flow versions, click the "`Retrieve all flow versions`" button.

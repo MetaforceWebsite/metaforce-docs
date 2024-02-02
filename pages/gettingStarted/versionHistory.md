@@ -1,5 +1,16 @@
 # Verison History
 
+## Version 2.26
+
+Released on Feb 2, 2024
+
+📣 Package XML Builder - Auto detect recent salesforce metadata changes!
+
+-   1️⃣ Find all metadata changes across your salesforce org
+-   2️⃣ Auto detect 50+ metadata types
+
+🍷 This amazing feature helps you to make your salesforce change list just in seconds!
+
 ## Version 2.22
 
 Released on Jan 18, 2024

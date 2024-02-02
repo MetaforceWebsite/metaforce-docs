@@ -1,29 +1,42 @@
 # Deployments
 
-Metaforce Deployment helps you to perform a quick deployment from a source org to a target org.
+Metaforce Deployment helps you to perform a quick deployment from a source org A to a target org B.
 
 ## Start a deployment with 4 steps
 
--   Choose source & target org
+-   Choose a source org and a target org
 -   Choose metadata components
 -   Set deployment options
+    -   `Preview the package xml file` which includes all metadata you selected in the previous step.
     -   Set deployment test level
-    -   Set diff changes (`Always check this option to avoid code override`)
-    -   Set deployment type
--   Start the deployment, Monitor Status, View results.
+    -   Toggle the checkbox of diff changes
+    -   Set deployment type: validate only, deploy, destructive
+-   Start the deployment, Monitor Status, View deployment results.
 
-## Deployment Options
+![deployment](./images/deployment.gif)
 
-### Diff Changes
+## Package XML Builder
 
-Before deploying your changes into production directly, the Diff Changes option helps you to easily compare all selected components between the source org and the target org.
+Package XML builder provides 2 ways to find your metadata changes for the deployment.
+
+-   Manually Choose Metadata
+-   Auto Detect Metadata Changes
+
+![deployment](./images/deployment-package-xml-builder.gif)
+
+## Compare Metadata Changes
+
+Before deploying selected metadata items into production directly, the `Diff Changes` option helps you to easily compare all selected components between the source org and the target org.
 
 -   Once the "Diff View" option is checked, you have to review all diff changes and continue the deployment by clicking `Continue The Deployment` button.
-    ![diff-view](./images/diffview0.jpg)
-    ![diff-view](./images/diffview.jpg)
 -   If there are any unexpected changes, you can click the `Cancel The Deployment` button to avoid data override.
 
-### Test Level
+<div class="flex-images">
+    <div>View Diff Option<img src="/pages/coreFeatures/images/deployment-diffview0.jpg"></div>
+    <div>Diff View<img src="/pages/coreFeatures/images/deployment-diff.jpg"></div>
+</div>
+
+## Test Level
 
 -   `Default` - When deploying to production, all tests, except those that originate from managed packages, are executed if your deployment package contains Apex classes or triggers. If your package doesn’t contain Apex components, no tests are run by default.
 -   `NoTestRun` - This test level applies only to deployments to development environments, such as sandbox, Developer Edition, or trial organizations. This test level is the default for development environments.
@@ -31,7 +44,7 @@ Before deploying your changes into production directly, the Diff Changes option 
 -   `RunLocalTests` - All tests in your org are run, except the ones that originate from installed managed and unlocked packages. This test level is the default for production deployments that include Apex classes or triggers.
 -   `RunAllTestsInOrg` - All tests are run. The tests include all tests in your org, including tests of managed packages.
 
-### Deploy Action Type
+## Deploy Action Type
 
 There are 3 deployment action types
 

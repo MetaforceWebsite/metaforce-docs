@@ -1,19 +1,25 @@
 # SOQL Explorer
 
-## SOQL Builder
+SOQL Explorer helps you to query, update salesforce records via rest api or tooling api.
+![soql builder](./images/soqlExplorer.gif)
 
-With the SOQL Builder, you can easily build a basic soql query just by few clicks.
+## Dynamic SOQL Builder
 
-> For cross-object field reference, you can directly input the reference field name and press `Enter`. The field name will be directly added as a field under the 'Choose fields' dropdown list.
+Dynamic SOQL Builder is a powerful salesforce soql editor. It auto-complete fields, soql keywords when you type the soql manually.
+![soql builder](./images/soql-dynamic-soql-builder.gif)
 
-![soql builder](./images/soql-builder.jpg)
+## SOQL Records Viewer
 
-## SOQL Runner
+Click `Run SOQL Query` to execute a soql query and view records as below.  
+In this view, you can
 
-Click `Generate SOQL` to generate a soql query in the textarea and you can also manually update the soql query. Once your query is ready, click `Run Query` to get query records as below.
-![soql builder](./images/soql-runner.jpg)
+-   Update/Delete records which are returned via rest api query
+-   Export records as csv file
+
+![soql builder](./images/soql-viewer.jpg)
 
 ## Custom Script Runner
 
-For query results, you can update them one by one manually. But if you need to bulk update field values based on some logic, you can use `Custom Script Runner` to run a javascript code.
-![soql builder](./images/soql-runner-script.jpg)
+For query results, you can update them one by one manually.
+But if you need to bulk update field values based on some logic, you can use `Custom Script Runner` to run a javascript code.
+![soql builder](./images/soql-custom-script.jpg)
