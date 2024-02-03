@@ -8,8 +8,12 @@ Metaforce provides 2 powerful app plugins on the top MenuBar(Mac) or TaskBar(Win
 ## Global Orgs Hub
 
 This plugin lists all your organizations in a quick popup so that you can `always login salesforce account by only one step`.  
-To open the plugin, click the plugin icon on the menu bar or press the shortcuts `Cmd/Ctrl + Shift + M`.  
-![Add a new org](./images/plugin-orghub.jpg ":size=70%")
+To open the plugin, click the plugin icon on the menu bar or press the shortcuts `Cmd/Ctrl + Shift + M`.
+
+<div class="flex-images">
+    <div style="width:100%;">Windows<img src="/pages/gettingStarted/images/plugin-orghub-windows.jpg"></div>
+    <div style="width:100%;">Mac<img src="/pages/gettingStarted/images/plugin-orghub.jpg"></div>
+</div>
 
 ## Global Search
 
@@ -35,7 +39,10 @@ Before you start,
     - **Salesforce Lightning Menu** - Search lightning setup menu items.
     - **None** - Don't search salesforce setup menu items.
 2. Choose metadata types you usually search. - For example, CustomObject, ApexClass, ApexPage, LWC, Flow, Profile, User, etc.
-   ![Add a new org](./images/plugin-orgseach.jpg ":size=70%")
+ <div class="flex-images">
+     <div style="width:100%;" >Windows<img src="/pages/gettingStarted/images/plugin-meta-windows.jpg"></div>
+     <div style="width:100%;">Mac<img src="/pages/gettingStarted/images/plugin-orgseach.jpg"></div>
+ </div>
 3. Start a search and all you want are listed right away! Easy and Fast!
    ![Add a new org](./images/plugin-orgsearchresult.jpg ":size=70%")
 

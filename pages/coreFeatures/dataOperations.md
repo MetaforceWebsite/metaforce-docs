@@ -13,8 +13,6 @@ Open metaforce and follow steps to export your data now!
     > [!Tip|style:flat|label:Tips]
     >
     > 1. For soql where clause, it must starts with the "where" keyword. For example, `WHERE CreatedDate > Last_Year ORDER BY LastModifiedDate DESC LIMIT 1000`.
-    > 2. To add child-to-parent relationship fields, you can `input the relationship field name` and press `Enter` as below. For example, input "CreatedBy.Name" and press "Enter".  
-    >    ![data-export-info](./images/data-export-cross-fields.jpg)
 
 3.  Start the export, view export job result, and download the csv file.
     ![data-export-result](./images/data-export-result.jpg)
