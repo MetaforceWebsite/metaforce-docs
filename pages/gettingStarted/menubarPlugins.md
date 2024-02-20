@@ -15,7 +15,7 @@ To open the plugin, click the plugin icon on the menu bar or press the shortcuts
     <div style="width:100%;">Mac<img src="/pages/gettingStarted/images/plugin-orghub.jpg"></div>
 </div>
 
-## Global Search
+## Global Org Search
 
 This plugin helps you to search salesforce menus, users, apex, other various metadata types by only one step.
 
