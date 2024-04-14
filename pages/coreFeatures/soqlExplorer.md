@@ -1,12 +1,17 @@
 # SOQL Explorer
 
-SOQL Explorer helps you to query, update salesforce records via rest api or tooling api.
-![soql builder](./images/soqlExplorer.gif)
+SOQL Explorer helps you to generate any SOQL query and view/update salesforce records via rest api or tooling api.
+![soql builder](./images/soql-explorer.gif)
 
 ## Dynamic SOQL Builder
 
-Dynamic SOQL Builder is a powerful salesforce soql editor. It auto-complete fields, soql keywords when you type the soql manually.
-![soql builder](./images/soql-dynamic-soql-builder.gif)
+Dynamic SOQL Builder is a most powerful tool to generate salesforce SOQL in a super easy way.
+
+-   Add fields, parent object fields, child object fields in the SOQL via clicks.
+-   Write soql via fields and SOQL keywords auto-completion.
+-   Auto format SOQL and track soql execution history.
+
+![soql builder](./images/soql-builder.gif)
 
 ## SOQL Records Viewer
 
@@ -20,6 +25,19 @@ In this view, you can
 
 ## Custom Script Runner
 
-For query results, you can update them one by one manually.
-But if you need to bulk update field values based on some logic, you can use `Custom Script Runner` to run a javascript code.
-![soql builder](./images/soql-custom-script.jpg)
+The custom script runner is used to bulk update field values via your customized javascript logic.
+
+```javascript
+/* Run your custom javascript logic to update soql records directly.
+ * Available Variables:
+    #1: selectedRecords - selected soql records
+ * Notes:
+    #1: record field name is exactly same with the field name in your SOQL.
+    #2: get cross-object field value by relationship field name in square brackets, like rec['Account.Name'].
+    #3: Metaforce won't save your script, please keep your code script in a local file or somewhere.
+ */
+selectedRecords.forEach(rec => {
+    rec.Field_A__c = rec.Field_B__c ; // overwrite field A with field B
+    rec.Field_C__c = rec['ParentObject__r.Field_D__c']; // overwrite field C with parent object field "Field D"
+})
+```
