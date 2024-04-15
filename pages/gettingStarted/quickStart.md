@@ -63,4 +63,5 @@ In Metaforce, you can quickly deploy your metadata changes from source org to ta
 1.  Go to `SOQL Explorer` --> `Choose an salesforce org connection`.
 2.  Build your own soql via powerful `SOQL Builder`.
 3.  Run soql query and handle returned records.
-    ![export account](./images/soql-query-gif.gif)
+
+![export account](./images/soql-query.gif)
