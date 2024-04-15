@@ -1,59 +1,93 @@
-#### 55 metadata types are supported for metadata retrieve and deployment.
+#### 90+ metadata types are supported for metadata retrieve and deployment.
 
 > View [salesforce metadata api official](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_types_list.htm) doc to learn more about metadata types.
 >
-> 1. ApexClass
-> 2. ApexComponent
-> 3. ApexPage
-> 4. ApexTrigger
-> 5. ApprovalProcess
-> 6. AssignmentRules
-> 7. AuraDefinitionBundle
-> 8. CustomApplication
-> 9. CustomField
-> 10. CustomLabel
-> 11. CustomObject
-> 12. CustomPermission
-> 13. CustomTab
-> 14. Dashboard
-> 15. DashboardFolder
-> 16. EmailFolder
-> 17. EmailTemplate
-> 18. FieldSet
-> 19. FlexiPage
-> 20. Flow
-> 21. GlobalValueSet
-> 22. Group
-> 23. Layout
-> 24. LeadConvertSettings
-> 25. Letterhead
-> 26. LightningComponentBundle
-> 27. NamedCredential
-> 28. PathAssistant
-> 29. PermissionSet
-> 30. PermissionSetGroup
-> 31. Profile
-> 32. Queue
-> 33. QuickAction
-> 34. RecordType
-> 35. Report
-> 36. ReportFolder
-> 37. ReportType
-> 38. RestrictionRule
-> 39. Role
-> 40. Settings
-> 41. SharingCriteriaRule
-> 42. SharingOwnerRule
-> 43. SharingSet
-> 44. StandardValueSet
-> 45. StaticResource
-> 46. Territory2
-> 47. Territory2Model
-> 48. Territory2Type
-> 49. ValidationRule
-> 50. WebLink
-> 51. WorkflowAlert
-> 52. WorkflowFieldUpdate
-> 53. WorkflowOutboundMessage
-> 54. WorkflowRule>
-> 55. WorkflowTask
+> ApexPage
+> ApexComponent
+> ApexClass
+> ApexTrigger
+> AuraDefinitionBundle
+> LightningComponentBundle
+> CustomObject
+> CustomField
+> PathAssistant
+> RecordType
+> ValidationRule
+> QuickAction
+> WebLink
+> Layout
+> CustomApplication
+> Flow
+> FlowTest
+> WorkflowRule
+> WorkflowFieldUpdate
+> WorkflowAlert
+> WorkflowOutboundMessage
+> WorkflowTask
+> EmailTemplate
+> CustomPermission
+> Report
+> Dashboard
+> ApprovalProcess
+> CustomLabel
+> LeadConvertSettings
+> StaticResource
+> Territory2
+> Territory2Model
+> NamedCredential
+> Territory2Type
+> PermissionSet
+> MutingPermissionSet
+> PermissionSetGroup
+> RestrictionRule
+> SamlSsoConfig
+> Audience
+> Translations
+> BrandingSet
+> AutoResponseRule
+> AssignmentRule
+> CspTrustedSite
+> PlatformEventChannel
+> PlatformEventChannelMember
+> ExternalCredential
+> ForecastingFilter
+> ForecastingFilterCondition
+> ForecastingSourceDefinition
+> ForecastingType
+> ForecastingTypeSource
+> AuthProvider
+> FlexiPage
+> Settings
+> Territory2Rule
+> CustomTab
+> FieldSet
+> EmailFolder
+> ReportFolder
+> DashboardFolder
+> ReportType
+> Role
+> Group
+> Queue
+> GlobalValueSet
+> SharingSet
+> Letterhead
+> Profile
+> SharingCriteriaRule
+> SharingOwnerRule
+> SharingTerritoryRule
+> StandardValueSet
+> CallCenter
+> Certificate
+> ConnectedApp
+> LightningMessageChannel
+> Network
+> NetworkBranding
+> CustomObjectTranslation
+> ExperienceBundle
+> NavigationMenu
+> EntitlementProcess
+> EntitlementTemplate
+> SharingReason
+> PlatformEventSubscriberConfig
+> QueueRoutingConfig
+> OauthCustomScope
