@@ -20,10 +20,10 @@ Metaforce Deployment helps you to perform a quick deployment from a source org A
 Package XML builder provides 2 ways to find your metadata changes for the deployment.
 
 -   Manually Choose Metadata  
-    In this way, Metaforce can list all recently-updated metadata components (ordered by latest modified date by default). You can easily find your changes and select them for the deployment.
+    In this way, Metaforce can `list all recently-updated metadata components (ordered by latest modified date by default)`. You can easily find your changes and select them for the deployment.
 
 -   Auto Detect Metadata Changes  
-    In this way, Metaforce search all metadata types automatically and list all metadata components which are updated by the specified user, on/after the specified date.
+    In this way, Metaforce search all metadata types automatically and `list all metadata components which were modified by the specified user, on/after the specified date`.
 
 ![deployment](./images/deployment-package-xml-builder.gif)
 
