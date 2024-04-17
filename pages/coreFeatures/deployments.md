@@ -4,13 +4,13 @@ Metaforce Deployment helps you to perform a quick deployment from a source org A
 
 ## Start a deployment with 4 steps
 
--   Choose a source org and a target org
--   Choose metadata components
+-   Choose a source org and a target org.
+-   Choose your changes via package xml builder.
 -   Set deployment options
     -   `Preview the package xml file` which includes all metadata you selected in the previous step.
-    -   Set deployment test level
-    -   Toggle the checkbox of diff changes
-    -   Set deployment type: validate only, deploy, destructive
+    -   Set deployment test level.
+    -   Toggle the checkbox of diff changes.
+    -   Set deployment type: validate only, deploy, destructive.
 -   Start the deployment, Monitor Status, View deployment results.
 
 ![deployment](./images/deployment.gif)
@@ -19,12 +19,15 @@ Metaforce Deployment helps you to perform a quick deployment from a source org A
 
 Package XML builder provides 2 ways to find your metadata changes for the deployment.
 
--   Manually Choose Metadata
--   Auto Detect Metadata Changes
+-   Manually Choose Metadata  
+    In this way, Metaforce can list all recently-updated metadata components (ordered by latest modified date by default). You can easily find your changes and select them for the deployment.
+
+-   Auto Detect Metadata Changes  
+    In this way, Metaforce search all metadata types automatically and list all metadata components which are updated by the specified user, on/after the specified date.
 
 ![deployment](./images/deployment-package-xml-builder.gif)
 
-## Compare Metadata Changes
+## Diff Metadata Changes
 
 Before deploying selected metadata items into production directly, the `Diff Changes` option helps you to easily compare all selected components between the source org and the target org.
 
@@ -36,7 +39,7 @@ Before deploying selected metadata items into production directly, the `Diff Cha
     <div>Diff View<img src="/pages/coreFeatures/images/deployment-diff.jpg"></div>
 </div>
 
-## Test Level
+## Set Deployment Test Level
 
 -   `Default` - When deploying to production, all tests, except those that originate from managed packages, are executed if your deployment package contains Apex classes or triggers. If your package doesn’t contain Apex components, no tests are run by default.
 -   `NoTestRun` - This test level applies only to deployments to development environments, such as sandbox, Developer Edition, or trial organizations. This test level is the default for development environments.
@@ -44,7 +47,7 @@ Before deploying selected metadata items into production directly, the `Diff Cha
 -   `RunLocalTests` - All tests in your org are run, except the ones that originate from installed managed and unlocked packages. This test level is the default for production deployments that include Apex classes or triggers.
 -   `RunAllTestsInOrg` - All tests are run. The tests include all tests in your org, including tests of managed packages.
 
-## Deploy Action Type
+## Set Deployment Action Type
 
 There are 3 deployment action types
 
