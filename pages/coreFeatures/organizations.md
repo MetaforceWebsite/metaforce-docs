@@ -1,18 +1,30 @@
 # Organizations
 
-![Add a new org](./images/org-new-gif.gif)
+Metaforce connects all your salesforce organizations via [`Standard Salesforce OAuth2.0`](https://help.salesforce.com/s/articleView?language=en_US&id=sf.remoteaccess_oauth_web_server_flow.htm&type=5).
 
-## Securely connect via OAuth
-
-Metaforce connects all your salesforce organizations via [`Standard Salesforce OAuth Process`](https://help.salesforce.com/s/articleView?language=en_US&id=sf.remoteaccess_oauth_web_server_flow.htm&type=5).  
-See how the process works:
+See how to add a new org connection in Metaforce:
 
 1. Click `New Organization` and Choose `Sandbox` or `Production` to login.
 2. Metaforce redirects you to standard salesforce login page, and authorize your salesforce account securely.
     > Metaforce hosts its own salesforce connected app to connect your salesforce accounts.
 3. Once the salesforce account is authorized, the page will be redirected to the `Allow Access` page to request your permit for api permissions.
-4. Click `Allow` to authorize Metaforce to perform salesforce api requests.
-    > All your account credential info (username, org, access_token, refresh_token) are stored as local cache files in Metaforce app.
+4. Click `Allow` to authorize Metaforce to perform salesforce api requests. > All your account credential info (username, org, access_token, refresh_token) are stored as local cache files in Metaforce app.
+
+![Add a new org](./images/org-new-gif.gif)
+
+## Securely connect via OAuth
+
+When adding a new org connection, Metaforce seamlessly directs you to the standard Salesforce login page, prompting you to grant the required access.  
+After successfully authorizing your Salesforce account, Metaforce securely stores your account information, access token, and refresh token as JSON data on your local computer, displaying it as an org card within the Metaforce app.
+
+> The account credentials obtained through OAuth are exclusively stored on your local computer, allowing you the flexibility to revoke or delete them at your convenience.
+
+![Add a new org](./images/org-oauth.jpg)
+
+## Sort & Group Orgs
+
+In Metaforce, you can organize multiple org connections effortlessly through drag-and-drop functionality. Additionally, you have the option to group your orgs by the org company name.
+![Add a new org](./images/org-sort.gif)
 
 ## Available Org Actions
 
