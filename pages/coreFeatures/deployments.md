@@ -2,7 +2,9 @@
 
 Metaforce Deployment helps you to perform a quick deployment from a source org A to a target org B.
 
-## Start a deployment with 4 steps
+# Start a deployment
+
+## Quickly deploy in 4 steps
 
 -   Choose a source org and a target org.
 -   Choose your changes via package xml builder.
@@ -54,3 +56,22 @@ There are 3 deployment action types
 -   `Validation` - Validate all selected metadata components only in the target org, instead of deploying them.
 -   `Deploy` - Deploy all selected components into the target org.
 -   `Destructive` - Delete all selected components from the target org.
+
+# Retrieve Metadata Zip File
+
+Metaforce can easily retrieve your selected metadata components as a zip file for backup or other purpose.
+
+![deployment](./images/deployment-retrieve.gif)
+
+# Deploy Metadata Zip File
+
+Metaforce can easily deploy a metadata zip file into your selected org. After choosing the zip file, you can preview all metadata files in the zip and compare to target org directly before the deployment.
+![deployment](./images/deployment-zipfile.jpg)
+
+## Compare To Target Org
+
+This feature will help you to review all zip files changes which will be deployed into the target org. This is important to avoid unexpected overrides in your target org.
+
+## Backup Target Org
+
+Based on the package xml in your selected metadata zip file, you can use this feature to backup all related metadata files from the target org.

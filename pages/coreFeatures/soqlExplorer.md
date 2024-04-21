@@ -7,9 +7,9 @@ SOQL Explorer helps you to generate any SOQL query and view/update salesforce re
 
 Dynamic SOQL Builder is a most powerful tool to generate salesforce SOQL in a super easy way.
 
--   Add fields, parent object fields, child object fields in the SOQL via clicks.
--   Write soql via fields and SOQL keywords auto-completion.
--   Auto format SOQL and track soql execution history.
+-   Click to add obejct fields, parent object fields, child object fields to generate SOQL.
+-   Edit SOQL in the editor via fields & keywords auto completion.
+-   Format SOQL and track soql execution history.
 
 ![soql builder](./images/soql-builder.gif)
 
@@ -18,10 +18,11 @@ Dynamic SOQL Builder is a most powerful tool to generate salesforce SOQL in a su
 Click `Run SOQL Query` to execute a soql query and view records as below.  
 In this view, you can
 
--   Update/Delete records which are returned via rest api query
--   Export records as csv file
+-   View relationship field value and child object records directly.
+-   Update/Delete records which are returned via rest api query.
+-   Export records as csv file.
 
-![soql builder](./images/soql-viewer.jpg)
+![soql builder](./images/soql-viewer.gif)
 
 ## Custom Script Runner
 
@@ -41,3 +42,5 @@ selectedRecords.forEach(rec => {
     rec.Field_C__c = rec['ParentObject__r.Field_D__c']; // overwrite field C with parent object field "Field D"
 })
 ```
+
+![soql builder](./images/soql-script.gif)
