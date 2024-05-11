@@ -42,16 +42,18 @@ Here is a simple package xml file:
 To build/update a package xml, you can use `Package XML Builder` to quickly choose components and save/export as a package xml file.
 ![package xml builder](../coreFeatures/images/project-package-xml-builder.gif)
 
-## metaforce-manifest.xml
+## package.xml
 
-Instead of package.xml, Metaforce Project use its own xml file named `metaforce-manifest.xml` to retrieve metadata components under the project.
+The `package.xml` is a xml file which include metadata types and metadata components. It can be used to retrieve metadata from your salesforce org.
+Metaforce project also use package.xml to retrieve metadata components under the project. It's auto created by default when you add the project.
 
-> Notes: the usage of `metaforce-manifest.xml` is totally same with the `package.xml`.
+> Notes: the usage of `package.xml` is totally same with the `package.xml`.
 
--   The metaforce-manifest.xml file is `auto generated` while you create a new project.
--   The metaforce-manifest.xml file can be `updated via Package XML Builder`.
--   The metaforce-manifest.xml file can be `retrieved to refresh its all components`.
-    ![metaforce manifest](./images/manifest.jpg)
+-   The package.xml file is `auto generated` while you create a new project.
+-   The package.xml file can be `updated via Package XML Builder`.
+-   The package.xml file can be `retrieved to refresh its all components`.
+
+![metaforce manifest](./images/project-packagexml.jpg)
 
 ## Edit CustomObject Xml
 
@@ -59,7 +61,6 @@ Once custom objects are retrieved successfully, you can find them in project sid
 
 -   `Folders`: fields, list views, validation rules, layouts, weblinks(Button & Links).
 -   `xxxxxx.object`: a complete custom object metadata xml which includes all metadata definitions, includes fields, validations, buttons, etc.
--   `xxxxxx.object-template.xml`: a simplified xml which only contains specific object definition. It's used to create new fields, validation rules or other child metadata via adding the xml definition in this file.
 
 ### Edit custom field, list view, validation rule, button & links
 
