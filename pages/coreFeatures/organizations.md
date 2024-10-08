@@ -21,6 +21,20 @@ After successfully authorizing your Salesforce account, Metaforce securely store
 
 ![Add a new org](./images/org-oauth.jpg)
 
+## Connect via custom domain
+
+In many cases, your salesforce org might be be only allowed to login via single sign on, or a custom domain.
+
+-   If it's a sandbox login, please click "New Organization" -> "Sandbox" -> "Use Custom Domain".
+-   If it's a production login, please click "New Organization" -> "Production" -> "Use Custom Domain".
+
+Once the custom domain url is loaded, you can login via username + password. If your salesforce org enables SSO login, click the SSO Login button.
+
+<div class="flex-images">
+    <div>Custom Domain<img src="/pages/coreFeatures/images/org-custom-domain.jpg"></div>
+    <div>Login<img src="/pages/coreFeatures/images/org-login-sso.jpg"></div>
+</div>
+
 ## Sort & Group Orgs
 
 In Metaforce, you can organize multiple org connections effortlessly through drag-and-drop functionality. Additionally, you have the option to group your orgs by the org company name.
