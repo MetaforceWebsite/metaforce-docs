@@ -16,7 +16,7 @@
     -   [Permission Explorer](/pages/coreFeatures/permissionExplorer.md)
     -   [Apex Test Execution](/pages/coreFeatures/apexTestExecution.md)
     -   [Anonymous Apex](/pages/coreFeatures/anonymousApex.md)
-    -   [Logs & Jobs Monitor](/pages/coreFeatures/logMonitor.md)
+    -   [Logs & Jobs Monitor](/pages/coreFeatures/logsJobsMonitor.md)
 
 -   **Appendices**
     -   [Supported Metadata Types](/pages/appendices/supportedMetadataTypes.md)

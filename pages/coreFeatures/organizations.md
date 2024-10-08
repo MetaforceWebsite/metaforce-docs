@@ -19,6 +19,8 @@ After successfully authorizing your Salesforce account, Metaforce securely store
 
 > The account credentials obtained through OAuth are exclusively stored on your local computer, allowing you the flexibility to revoke or delete them at your convenience.
 
+:link: [View official doc about salesforce OAuth 2.0](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_oauth_and_connected_apps.htm)
+
 ![Add a new org](./images/org-oauth.jpg)
 
 ## Connect via custom domain
