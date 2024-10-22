@@ -55,25 +55,6 @@ Metaforce project also use package.xml to retrieve metadata components under the
 
 ![metaforce manifest](./images/project-packagexml.jpg)
 
-## Edit CustomObject Xml
-
-Once custom objects are retrieved successfully, you can find them in project side bar. A specific custom object can be expanded as below:
-
--   `Folders`: fields, list views, validation rules, layouts, weblinks(Button & Links).
--   `xxxxxx.object`: a complete custom object metadata xml which includes all metadata definitions, includes fields, validations, buttons, etc.
-
-### Edit custom field, list view, validation rule, button & links
-
-To-Be-Updated
-
-### Create/Deploy a new custom field
-
-To-Be-Updated
-
-### Edit/Deploy search layouts & action overrides
-
-To-Be-Updated
-
 ## Code Editor Actions
 
 In metaforce code editor, you can `view, update, save, and refresh` your salesforce metadata directly which includes apex classes, aura, lwc, custom objects, custom fields, email templates, etc.
@@ -118,18 +99,35 @@ There are 2 ways to run an apex test class:
 -   View components which are referenced by current component.
 -   View components which reference to current component.
 
-### View Console Logs (Cmd + Shift + L)
+### View Console Logs (Ctrl/Cmd + Shift + L)
 
 > Show code editor logs
 
-### Format Code (Cmd + Shift + F)
+### LF & CRLF
 
-> Quick format your apex, html, js, xml, etc.
+### Format Code
 
-### Editor Font Size
+> For ApexCode/LWC/Aura, they're formatted via the most popular plugin: [prettier-plugin-apex](https://github.com/dangmai/prettier-plugin-apex)
+> For javascript/Xml/Css, they're formatted via prettier plugin: [prettier-plugin](https://prettier.io/)
 
-> Change font size in code editor.
+-   Shortcut for windows: Ctrl + Alt + F
+-   Shortcut for mac: Cmd + Shift + F
 
-### Editor Themes
+## Edit CustomObject Xml
 
-> Change the theme of code editor.
+Once custom objects are retrieved successfully, you can find them in project side bar. A specific custom object can be expanded as below:
+
+-   `Folders`: fields, list views, validation rules, layouts, weblinks(Button & Links).
+-   `xxxxxx.object`: a complete custom object metadata xml which includes all metadata definitions, includes fields, validations, buttons, etc.
+
+### Edit custom field, list view, validation rule, button & links
+
+To-Be-Updated
+
+### Create/Deploy a new custom field
+
+To-Be-Updated
+
+### Edit/Deploy search layouts & action overrides
+
+To-Be-Updated

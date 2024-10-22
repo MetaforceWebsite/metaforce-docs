@@ -4,6 +4,7 @@
     -   [Quick Start](/pages/gettingStarted/quickStart.md)
     -   [Light/Dark Mode](/pages/gettingStarted/lightDarkMode.md)
     -   [MenuBar Plugins](/pages/gettingStarted/menubarPlugins.md)
+    -   [Backup/Restore](/pages/gettingStarted/backup.md)
 
 -   **Core Features**
 
