@@ -9,7 +9,7 @@ Besides code development, you can even edit metadata file and save changes to sa
 > In this way, you can easily switch project between Metaforce or VS Code, and utilize all metaforce features without losing SFDX abilities.
 > ![Project New](../coreFeatures/images/project-new.jpg)
 
-## Project Overview
+## Project Code Editor
 
 -   **Project Header** - includes org connection and its status, org switch button, org login button, package xml builder, code editor settings.
 -   **Project Sidebar** - shows all files under the project.
@@ -17,6 +17,32 @@ Besides code development, you can even edit metadata file and save changes to sa
 -   **Project Action bar** - all available actions for the code editor.
 
 ![Project Overview](../coreFeatures/images/project-code-editor-overview.jpg)
+
+### Code Editor & Settings
+
+-   Auto apex completion.
+-   Various editor themes.
+-   Common code editor settings, like themes, font size, etc.
+
+![package xml builder](./images/project-code-editor-settings.gif)
+
+### Code Editor Actions
+
+In metaforce code editor, you can `view, update, save, and refresh` your salesforce metadata directly which includes apex classes, aura, lwc, custom objects, custom fields, email templates, etc.
+
+![package xml builder](./images/project-code-editor-actions.jpg)
+
+### LF & CRLF
+
+Show the line ending of current code content. Click to switch the line ending between LF and CRLF.
+
+### Format Code
+
+-   For ApexCode/LWC/Aura, they're formatted via the most popular plugin: [prettier-plugin-apex](https://github.com/dangmai/prettier-plugin-apex)
+-   For javascript/Xml/Css, they're formatted via prettier plugin: [prettier-plugin](https://prettier.io/)
+
+> Shortcut for windows: Ctrl + Alt + F  
+> Shortcut for mac: Cmd + Shift + F
 
 ## Create Apex/Aura/LWC/Object/Field
 
@@ -70,45 +96,3 @@ The "Package Xml Builder" can detect all changes from a specified user, based on
 -   The package.xml file can be `retrieved to refresh its all components`.
 
 ![metaforce manifest](./images/project-packagexml.jpg)
-
-## Code Editor Settings
-
-Customize your code editor, like themes, font size, etc.
-![package xml builder](./images/project-code-editor-settings.gif)
-
-## Code Editor Actions
-
-In metaforce code editor, you can `view, update, save, and refresh` your salesforce metadata directly which includes apex classes, aura, lwc, custom objects, custom fields, email templates, etc.
-
-![package xml builder](./images/project-code-editor-actions.jpg)
-
-### LF & CRLF
-
-Show the line ending of current code content. Click to switch the line ending between LF and CRLF.
-
-### Format Code
-
-> For ApexCode/LWC/Aura, they're formatted via the most popular plugin: [prettier-plugin-apex](https://github.com/dangmai/prettier-plugin-apex)
-> For javascript/Xml/Css, they're formatted via prettier plugin: [prettier-plugin](https://prettier.io/)
-
--   Shortcut for windows: Ctrl + Alt + F
--   Shortcut for mac: Cmd + Shift + F
-
-## Edit CustomObject Xml
-
-Once custom objects are retrieved successfully, you can find them in project side bar. A specific custom object can be expanded as below:
-
--   `Folders`: fields, list views, validation rules, layouts, weblinks(Button & Links).
--   `xxxxxx.object`: a complete custom object metadata xml which includes all metadata definitions, includes fields, validations, buttons, etc.
-
-### Edit custom field, list view, validation rule, button & links
-
-To-Be-Updated
-
-### Create/Deploy a new custom field
-
-To-Be-Updated
-
-### Edit/Deploy search layouts & action overrides
-
-To-Be-Updated
