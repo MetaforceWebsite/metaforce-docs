@@ -30,7 +30,13 @@ Besides code development, you can even edit metadata file and save changes to sa
 
 In metaforce code editor, you can `view, update, save, and refresh` your salesforce metadata directly which includes apex classes, aura, lwc, custom objects, custom fields, email templates, etc.
 
-![package xml builder](./images/project-code-editor-actions.jpg)
+### Compare/Diff Metadata
+
+-   Compare your apex code or salesforce metadata with a selected target org.
+-   New improved & re-designed DIFF view.
+-   Pick particular changes you need and save to your target org directly.
+
+![project code diff](./images/project-code-editor-diff.jpg)
 
 ### LF & CRLF
 
@@ -41,8 +47,8 @@ Show the line ending of current code content. Click to switch the line ending be
 -   For ApexCode/LWC/Aura, they're formatted via the most popular plugin: [prettier-plugin-apex](https://github.com/dangmai/prettier-plugin-apex)
 -   For javascript/Xml/Css, they're formatted via prettier plugin: [prettier-plugin](https://prettier.io/)
 
-> Shortcut for windows: Ctrl + Alt + F  
-> Shortcut for mac: Cmd + Shift + F
+> Shortcut for windows: Shift + Alt + F  
+> Shortcut for mac: Shift + Option + F
 
 ## Create Apex/Aura/LWC/Object/Field
 

@@ -1,6 +1,6 @@
-# Logs & Jobs Monitor
+# Logs & Jobs & Audits
 
-Logs & Job Monitor helps you to view and manage salesforce logs and jobs in one place.
+The page helps you to view and manage salesforce logs, jobs and setup audit trails in one place.
 
 ![debug logs](./images/logs-debug.jpg)
 
