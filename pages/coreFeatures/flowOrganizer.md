@@ -1,10 +1,12 @@
 # Flow Organizer
 
-Metaforce Flow Organizer helps you to manage all your flows and flow versions in a single view.
+Metaforce Flow Organizer helps you to manage all your flows and flow versions in a single view. Whenever the user opens the flow organizer or clicks the `Refresh` button at the top, Metaforce fetches latest flow version updates.
 
-In flow organizer, you can quickly filter, sort all flows.
+Here are flow organizer table columns:
 
--   **Flow Name**: shows flow name and api name both.
+-   **Flow Name**: shows flow name and flow api name both.
+    1. The flow name is a clickable link and it will `redirect to flow detail page in salesforce` when the user clicks it.
+    2. The flow API name is a clickable text and it will `be copied to clipboard` so that the user can easily paste the api name for other purposes.
 -   **Flow Status**: indicates the flow is active or not.
 -   **Type**, there are 4 common flow types:
     1. AutoLaunchedFlow
@@ -15,23 +17,27 @@ In flow organizer, you can quickly filter, sort all flows.
 -   **Trigger Type**: indicates when a record trigger flow get triggered.
 -   **Last Modified**: last modified user and date.
 
-![flow-auto-sync](./images/flow-organizer.gif)
+> All columns can be sorted by clicking the column header. By default, the table is sorted by Last Modified Date(descending).
 
-## Auto Flow Sync
-
-Everytime you open the flow organizer or click the `Fetch Latest Flow Updates` button, all latest active flow updates will be retrieved and saved on local by default.
-
--   Click flow name to open the flow definition detail in the browser
-
-> The flow organizer auto fetch latest flow updates while the flow organizer page is open or refreshed.
-
-![flow-auto-sync](./images/flow-auto-sync.jpg)
+![flow-auto-sync](./images/flow-organizer.jpg)
 
 ## Actions On The Flow Version
 
-Expand a flow to view flow versions.  
-By default, the most recent 5 flow versions will be fetched. If you want to load all flow versions, click the "`Retrieve all flow versions`" button.
+By default, the most recent 5 flow versions will be fetched for the display. If the flow has many old versions, click the "`Retrieve all flow versions`" button to list all of them.
 
-> Tips: click "Last Modified Date" column to keep the latest updated flow on the top, then you can easily find the flow you're working on.
+> Tips: click "Last Modified Date" column header to keep the latest updated flow on the top, then you can easily find the flow you're working on.
+
+Avaiable flow actions:
+
+-   `Open`: open current flow version and redirects to the flow builder in the salesforce.
+-   `Active/Deactivate`: toggle flow status.
+-   `Debug`: open the debug page for current flow version.
+-   `Diff`: compare current flow version with a specified flow version in current or another salesforce org.
+-   `Del`: remove current flow version.
 
 ![flow-actions](./images/flow-actions.jpg)
+
+## Flow Version Diff View
+
+The "Diff" action lets users easily see the differences between the source and target flow versions. They can choose a different version of the same flow for the target, or even pick a flow version from a different org.
+![flow-actions](./images/flow-diff.jpg)
