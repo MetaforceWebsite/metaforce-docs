@@ -20,7 +20,7 @@ Follow steps below to quickly walk through metaforce core features!
 
 3. View your salesforce org details as below.  
    Try to quickly open your salesforce org in browser by clicking the `Quick Login` icon or the action `Open Org In Browser`.  
-   ![Add a new org](./images/org-new-card.jpg ":size=70%")
+   ![Add a new org](./images/org-new-card.png ":size=70%")
 
 ## Start apex development
 
