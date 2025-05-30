@@ -16,9 +16,9 @@ Metaforce Core Features:
 5. **Flow Organizer** - Manage and organize all your flows in one place.
 6. **SOQL Explorer** - Easily build & run soql query via rest api or tooling api. Beyond that, you can also edit/delete records via rest api directly.
 7. **Permission Explorer** - Review and update object and field permissions across multiple profiles and permission sets.
-8. **Find Dependencies** - Find metadata dependencies for custom object, custom field, apex, visualforce, or a specific metadata component id.
+8. **Logs & Jobs & Audits** - Monitor & debug your salesforce orgs in one place.
 9. **More to come and Stay tuned...**
 
 Watch the video to learn what Metaforce can do!
 
-<iframe width="1043" height="587" src="https://www.youtube.com/embed/dmM-vb7pYpg" title="A powerful salesforce administration and development tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1043" height="587" src="https://www.youtube.com/embed/TJDd52dErYM" title="A powerful salesforce administration and development tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
