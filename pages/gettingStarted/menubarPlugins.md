@@ -9,7 +9,6 @@ Metaforce provides 2 powerful app plugins on the top MenuBar(Mac) or TaskBar(Win
 
 This plugin lists all your organizations in a quick popup so that you can `always login salesforce account by only one step`.  
 To open the plugin, click the plugin icon on the menu bar or press the shortcuts `Cmd/Ctrl + Shift + M`.
-![Add a new org](./images/menubar-login.gif)
 
 <div class="flex-images">
     <div style="width:100%;">Windows<img src="/pages/gettingStarted/images/plugin-orghub-windows.jpg"></div>
@@ -38,7 +37,7 @@ Before you start,
 2. Start a search and all you want are listed right away! Easy and Fast!
    ![Add a new org](./images/plugin-orgsearchresult.jpg ":size=70%")
 
-### Global Search Settings
+## Global Search Settings
 
 Configure your search settings to make your search faster and easier.
 
@@ -46,4 +45,4 @@ Configure your search settings to make your search faster and easier.
 -   **Metadata Search - The maximum of results per metadata type** - the recommended number is 10 ~ 20. This will reduce the volume of search results and make the search faster.
 -   **Default Shortcus** - Customize the shortcuts as you like.
 
-![Add a new org](./images/plugin-orgsearchsetting.jpg)
+![Add a new org](./images/plugin-orgsearchsetting.jpg ":size=70%")
